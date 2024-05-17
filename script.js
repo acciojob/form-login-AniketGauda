@@ -1,8 +1,6 @@
-function myFunction() {
-    //Write your code here
-	let fn = document.querySelector("input[name=fname]");
-    let ln = document.querySelector("inut[name=lname]");
+function getFormvalue(){
+    let fn = document.querySelector("input[name=fname]");
+    let ln = document.querySelector("input[name=lname]");
 
     alert(`${fn.value} ${ln.value}`);
-
 }
